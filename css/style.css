@@ -1,0 +1,35 @@
+.container{
+    width: 1140px;
+    margin: 0% auto;
+    padding: 60px;
+}
+.container ul{
+    margin: 0%;
+    padding: 0%;
+}
+.container ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: rgb(7, 111, 248);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 66px;
+    border: 1px solid rgb(14, 109, 233);
+    border-radius: 6px;
+    margin: 0px 5px;
+    transition: .6s;
+
+}
+.container ul li a i{
+    color: azure;
+    font-size: 24px;
+    animation: rotate360 2s linear infinite ;
+}
+.container ul li:hover i{
+    transform: scale(1.4);
+    /* transform: rotate(45deg); */
+    transition: .6s;
+}
+
+/* class 2 er 1 hour 20 mint e @keyframes niye kotha ase ota dekha lagbe jodi vule jai*/
